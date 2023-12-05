@@ -58,7 +58,7 @@ if page == "Edit Data":
                 type_of_injury_baru = st.text_input("type_of_injury", type_of_injury_lama)
               
                 
-                col1, col2 = st.columns([1, 10])
+                col1, col2 = st.columns([1, 6])
 
                 with col1:
                     if st.form_submit_button('UPDATE'):
